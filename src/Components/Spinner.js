@@ -16,7 +16,7 @@ function Spinner() {
           <LoadingOutlined
             style={{
               fontSize: 54,
-              margin:'auto'
+              margin: "auto",
             }}
             spin
           />
