@@ -128,7 +128,7 @@ function Dashboardcard({ title, tag, value, icon }) {
           borderRadius: "8px",
         }}
       >
-        <div style={{ width: "25%" }}>{getIcon()}</div>
+        <div style={{ width: "25%",marginTop:"-10px" }}>{getIcon()}</div>
         <div style={{ width: "75%", padding: "20px" }}>
           <p style={{ fontSize: "15px", fontWeight: "bold" }}>{title}</p>
           <p>
